@@ -1,2 +1,4 @@
 # PageViewController
 PageViewController-OC
+
+UIScrollView兼容UITableView滑动事件，可一并拖动
