@@ -22,9 +22,11 @@
     [super viewDidLoad];
     
     [self.view addSubview:self.tableView];
-    self.tableView.frame = self.view.frame;
+    self.tableView.frame = CGRectMake(0, 0, kScreenW, kScreenH);
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"listCell"];
+    
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 #pragma mark - UITableViewDataSource & UITableViewDelegate

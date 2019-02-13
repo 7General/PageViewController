@@ -8,6 +8,8 @@
 
 #import "MSHeaderView.h"
 
+
+
 @interface MSHeaderView()
 
 @property (nonatomic, strong) UILabel               *countLabel;
@@ -35,24 +37,24 @@
             make.bottom.equalTo(self).offset(-ADAPTATIONRATIO * 26.0f);
             make.left.equalTo(self).offset(ADAPTATIONRATIO * 15.0f);
         }];
-        
+
         [self.countLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.tagLabel);
             make.bottom.equalTo(self.tagLabel.mas_top).offset(-ADAPTATIONRATIO * 12.0f);
         }];
-        
+
         [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(self.tagLabel);
             make.bottom.equalTo(self.countLabel.mas_top).offset(-20.0f);
         }];
-        
+
         [self.collectBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.bottom.equalTo(self.tagLabel.mas_bottom);
             make.right.equalTo(self).offset(-ADAPTATIONRATIO * 20.0f);
             make.width.mas_equalTo(ADAPTATIONRATIO * 150.0f);
             make.height.mas_equalTo(ADAPTATIONRATIO * 50.0f);
         }];
-        
+
         [self.personalBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.bottom.equalTo(self.tagLabel.mas_bottom);
             make.right.equalTo(self.collectBtn.mas_left).offset(-ADAPTATIONRATIO * 20.0f);
@@ -100,7 +102,7 @@
         _personalBtn.titleLabel.font = [UIFont systemFontOfSize:14.0f];
         [_personalBtn setTitle:@"个人主页" forState:UIControlStateNormal];
         [_personalBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        _personalBtn.layer.cornerRadius = ADAPTATIONRATIO * 25.0f;
+//        _personalBtn.layer.cornerRadius = ADAPTATIONRATIO * 25.0f;
         _personalBtn.layer.masksToBounds = YES;
         _personalBtn.layer.borderColor = [UIColor whiteColor].CGColor;
         _personalBtn.layer.borderWidth = 0.5f;
@@ -115,7 +117,7 @@
         _collectBtn.titleLabel.font = [UIFont systemFontOfSize:14.0f];
         [_collectBtn setTitle:@"收藏" forState:UIControlStateNormal];
         [_collectBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        _collectBtn.layer.cornerRadius = ADAPTATIONRATIO * 22.0f;
+//        _collectBtn.layer.cornerRadius = ADAPTATIONRATIO * 22.0f;
         _collectBtn.layer.masksToBounds = YES;
     }
     return _collectBtn;

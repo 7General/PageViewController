@@ -58,6 +58,12 @@ NO)
     return self;
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    self.mainTableView.frame = self.bounds;
+}
+
 - (void)initSubViews {
     self.isCriticalPoint = NO;
     self.isMainCanScroll = YES;
