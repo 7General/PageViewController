@@ -1,8 +1,8 @@
 //
-//  ReuseViewController.h
+//  GKPageScrollView.h
 //  PageController
 //
-//  Created by zzg on 2019/1/16.
+//  Created by zzg on 2019/2/13.
 //  Copyright © 2019 zzg. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ReuseViewController : UITableViewController
+@interface MSPageScrollView : UIView
 
 @end
 

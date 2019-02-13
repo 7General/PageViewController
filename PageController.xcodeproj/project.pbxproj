@@ -7,17 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2255822621EF5EC6007C71D1 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255821921EF5EC6007C71D1 /* WMPageController.m */; };
-		2255822721EF5EC6007C71D1 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255821C21EF5EC6007C71D1 /* UIViewController+WMPageController.m */; };
-		2255822821EF5EC6007C71D1 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255821F21EF5EC6007C71D1 /* WMMenuItem.m */; };
-		2255822921EF5EC6007C71D1 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255822121EF5EC6007C71D1 /* WMScrollView.m */; };
-		2255822A21EF5EC6007C71D1 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255822321EF5EC6007C71D1 /* WMMenuView.m */; };
-		2255822C21EF5EC6007C71D1 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255822521EF5EC6007C71D1 /* WMProgressView.m */; };
-		2255822F21EF5F7A007C71D1 /* WMPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255822D21EF5F7A007C71D1 /* WMPanGestureRecognizer.m */; };
-		2255823221EF61AA007C71D1 /* WMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255823121EF61AA007C71D1 /* WMTableViewController.m */; };
-		2255823621EF6424007C71D1 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255823521EF6424007C71D1 /* PageViewController.m */; };
-		2255823921EF64D3007C71D1 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255823821EF64D3007C71D1 /* PageScrollView.m */; };
-		2255823C21EF6827007C71D1 /* ReuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255823B21EF6827007C71D1 /* ReuseViewController.m */; };
+		22169BA8221412EB007B0EFE /* MSPageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22169BA7221412EB007B0EFE /* MSPageScrollView.m */; };
+		22169BAB2214130C007B0EFE /* MSPageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22169BAA2214130C007B0EFE /* MSPageTableView.m */; };
 		22FDF6FE21EED762000C189D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDF6FD21EED762000C189D /* AppDelegate.m */; };
 		22FDF70121EED762000C189D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDF70021EED762000C189D /* ViewController.m */; };
 		22FDF70421EED762000C189D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FDF70221EED762000C189D /* Main.storyboard */; };
@@ -28,28 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2255821821EF5EC6007C71D1 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
-		2255821921EF5EC6007C71D1 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
-		2255821A21EF5EC6007C71D1 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
-		2255821B21EF5EC6007C71D1 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
-		2255821C21EF5EC6007C71D1 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WMPageController.m"; sourceTree = "<group>"; };
-		2255821E21EF5EC6007C71D1 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
-		2255821F21EF5EC6007C71D1 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
-		2255822021EF5EC6007C71D1 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
-		2255822121EF5EC6007C71D1 /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
-		2255822221EF5EC6007C71D1 /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WMPageController.h"; sourceTree = "<group>"; };
-		2255822321EF5EC6007C71D1 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
-		2255822521EF5EC6007C71D1 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
-		2255822D21EF5F7A007C71D1 /* WMPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPanGestureRecognizer.m; sourceTree = "<group>"; };
-		2255822E21EF5F7A007C71D1 /* WMPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPanGestureRecognizer.h; sourceTree = "<group>"; };
-		2255823021EF61AA007C71D1 /* WMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTableViewController.h; sourceTree = "<group>"; };
-		2255823121EF61AA007C71D1 /* WMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTableViewController.m; sourceTree = "<group>"; };
-		2255823421EF6424007C71D1 /* PageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageViewController.h; sourceTree = "<group>"; };
-		2255823521EF6424007C71D1 /* PageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageViewController.m; sourceTree = "<group>"; };
-		2255823721EF64D3007C71D1 /* PageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageScrollView.h; sourceTree = "<group>"; };
-		2255823821EF64D3007C71D1 /* PageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageScrollView.m; sourceTree = "<group>"; };
-		2255823A21EF6827007C71D1 /* ReuseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReuseViewController.h; sourceTree = "<group>"; };
-		2255823B21EF6827007C71D1 /* ReuseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReuseViewController.m; sourceTree = "<group>"; };
+		22169BA6221412EB007B0EFE /* MSPageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPageScrollView.h; sourceTree = "<group>"; };
+		22169BA7221412EB007B0EFE /* MSPageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPageScrollView.m; sourceTree = "<group>"; };
+		22169BA92214130C007B0EFE /* MSPageTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPageTableView.h; sourceTree = "<group>"; };
+		22169BAA2214130C007B0EFE /* MSPageTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPageTableView.m; sourceTree = "<group>"; };
 		22FDF6F921EED762000C189D /* PageController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FDF6FC21EED762000C189D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22FDF6FD21EED762000C189D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,36 +48,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2255821721EF5EC6007C71D1 /* WMPageController */ = {
-			isa = PBXGroup;
-			children = (
-				2255822E21EF5F7A007C71D1 /* WMPanGestureRecognizer.h */,
-				2255822D21EF5F7A007C71D1 /* WMPanGestureRecognizer.m */,
-				2255821821EF5EC6007C71D1 /* WMScrollView.h */,
-				2255822121EF5EC6007C71D1 /* WMScrollView.m */,
-				2255821A21EF5EC6007C71D1 /* WMMenuItem.h */,
-				2255821F21EF5EC6007C71D1 /* WMMenuItem.m */,
-				2255821B21EF5EC6007C71D1 /* WMMenuView.h */,
-				2255822321EF5EC6007C71D1 /* WMMenuView.m */,
-				2255821E21EF5EC6007C71D1 /* WMProgressView.h */,
-				2255822521EF5EC6007C71D1 /* WMProgressView.m */,
-				2255822021EF5EC6007C71D1 /* WMPageController.h */,
-				2255821921EF5EC6007C71D1 /* WMPageController.m */,
-				2255822221EF5EC6007C71D1 /* UIViewController+WMPageController.h */,
-				2255821C21EF5EC6007C71D1 /* UIViewController+WMPageController.m */,
-			);
-			path = WMPageController;
-			sourceTree = "<group>";
-		};
 		2255823321EF63E3007C71D1 /* CustomPageView */ = {
 			isa = PBXGroup;
 			children = (
-				2255823421EF6424007C71D1 /* PageViewController.h */,
-				2255823521EF6424007C71D1 /* PageViewController.m */,
-				2255823721EF64D3007C71D1 /* PageScrollView.h */,
-				2255823821EF64D3007C71D1 /* PageScrollView.m */,
-				2255823A21EF6827007C71D1 /* ReuseViewController.h */,
-				2255823B21EF6827007C71D1 /* ReuseViewController.m */,
+				22169BA6221412EB007B0EFE /* MSPageScrollView.h */,
+				22169BA7221412EB007B0EFE /* MSPageScrollView.m */,
+				22169BA92214130C007B0EFE /* MSPageTableView.h */,
+				22169BAA2214130C007B0EFE /* MSPageTableView.m */,
 			);
 			path = CustomPageView;
 			sourceTree = "<group>";
@@ -129,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				2255823321EF63E3007C71D1 /* CustomPageView */,
-				2255821721EF5EC6007C71D1 /* WMPageController */,
 				22FDF71321EED780000C189D /* Main */,
 				22FDF71221EED777000C189D /* basic */,
 				22FDF70521EED764000C189D /* Assets.xcassets */,
@@ -155,8 +104,6 @@
 		22FDF71321EED780000C189D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				2255823021EF61AA007C71D1 /* WMTableViewController.h */,
-				2255823121EF61AA007C71D1 /* WMTableViewController.m */,
 				22FDF71521EED79F000C189D /* MainViewController.h */,
 				22FDF71621EED79F000C189D /* MainViewController.m */,
 			);
@@ -233,21 +180,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2255822821EF5EC6007C71D1 /* WMMenuItem.m in Sources */,
-				2255822F21EF5F7A007C71D1 /* WMPanGestureRecognizer.m in Sources */,
-				2255822A21EF5EC6007C71D1 /* WMMenuView.m in Sources */,
 				22FDF70121EED762000C189D /* ViewController.m in Sources */,
-				2255822621EF5EC6007C71D1 /* WMPageController.m in Sources */,
-				2255823221EF61AA007C71D1 /* WMTableViewController.m in Sources */,
 				22FDF70C21EED765000C189D /* main.m in Sources */,
+				22169BAB2214130C007B0EFE /* MSPageTableView.m in Sources */,
 				22FDF6FE21EED762000C189D /* AppDelegate.m in Sources */,
 				22FDF71721EED79F000C189D /* MainViewController.m in Sources */,
-				2255822C21EF5EC6007C71D1 /* WMProgressView.m in Sources */,
-				2255822721EF5EC6007C71D1 /* UIViewController+WMPageController.m in Sources */,
-				2255823C21EF6827007C71D1 /* ReuseViewController.m in Sources */,
-				2255823621EF6424007C71D1 /* PageViewController.m in Sources */,
-				2255823921EF64D3007C71D1 /* PageScrollView.m in Sources */,
-				2255822921EF5EC6007C71D1 /* WMScrollView.m in Sources */,
+				22169BA8221412EB007B0EFE /* MSPageScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
