@@ -9,6 +9,10 @@
 #import "MSPageTableView.h"
 
 @implementation MSPageTableView
+// 允许多个手势
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    return YES;
+}
 
 
 @end
