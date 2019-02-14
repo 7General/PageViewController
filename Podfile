@@ -5,6 +5,7 @@ target 'PageController' do
 
 
 pod 'Masonry'
+pod 'MJRefresh'
 
 
 end

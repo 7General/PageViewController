@@ -188,6 +188,7 @@ static CGFloat const kWMMenuViewHeight = 44.0;
         _pageScrollView = [[MSPageScrollView alloc] initWithDelegate:self];
         _pageScrollView.mainTableView.backgroundColor = [UIColor clearColor];
         _pageScrollView.ceilPointHeight = 0;
+        _pageScrollView.isAllowListRefresh = NO;
     }
     return _pageScrollView;
 }
