@@ -233,7 +233,7 @@ static CGFloat const kWMMenuViewHeight = 44.0;
 
 - (UIView *)categoryView {
     if (!_categoryView) {
-        _categoryView = [[UIView alloc] init];
+        _categoryView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreenW, 40.0f)];
         _categoryView.backgroundColor = [UIColor redColor];
     }
     return _categoryView;
