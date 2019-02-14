@@ -12,7 +12,7 @@
 
 #define kCriticalPoint -ADAPTATIONRATIO * 50.0f
 
-static CGFloat const kWMMenuViewHeight = 44.0;
+
 
 @interface MainViewController ()<MSPageScrollViewDelegate, UIScrollViewDelegate>
 @property (nonatomic, strong) MSPageScrollView      *pageScrollView;
