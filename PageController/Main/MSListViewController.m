@@ -46,7 +46,7 @@
     !self.listScrollViewScrollBlock ? : self.listScrollViewScrollBlock(scrollView);
 }
 
-#pragma mark - GKPageListViewDelegate
+#pragma mark - MSPageListViewDelegate
 - (UIScrollView *)listScrollView {
     return self.tableView;
 }

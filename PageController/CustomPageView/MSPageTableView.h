@@ -1,5 +1,5 @@
 //
-//  GKPageTableView.h
+//  MSPageTableView.h
 //  PageController
 //
 //  Created by zzg on 2019/2/13.

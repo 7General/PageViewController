@@ -1,5 +1,5 @@
 //
-//  GKPageScrollView.m
+//  MSPageScrollView.m
 //  PageController
 //
 //  Created by zzg on 2019/2/13.
@@ -115,9 +115,9 @@ NO)
 - (void)listScrollViewDidScroll:(UIScrollView *)scrollView {
     self.currentListScrollView = scrollView;
     
-    // 获取listscrollviewd偏移量
+    // 获取listscrollView偏移量
     CGFloat offsetY = scrollView.contentOffset.y;
-    
+    NSLog(@"offsetY ---- %f",offsetY);
     // listscrollview下滑至offsetY小于0，禁止滑动，让mainTableView可下滑
     if (offsetY <= 0) {
         if (self.isAllowListRefresh && offsetY < 0 && self.mainTableView.contentOffset.y == 0) {
@@ -176,8 +176,10 @@ NO)
         } else {
             if (self.isMainCanScroll) {
                 // 未达到临界点，mainscrollview可滑动，需要重置所有的llistscrollview的位置
+                [self listScrollViewOffsetFixed];
             } else {
                 // 未到达临界点，mainScrollView不可滑动，固定mainScrollView的位置
+                [self mainScrollViewOffsetFixed];
             }
         }
     }
