@@ -117,7 +117,7 @@ NO)
     
     // 获取listscrollView偏移量
     CGFloat offsetY = scrollView.contentOffset.y;
-    NSLog(@"offsetY ---- %f",offsetY);
+    
     // listscrollview下滑至offsetY小于0，禁止滑动，让mainTableView可下滑
     if (offsetY <= 0) {
         if (self.isAllowListRefresh && offsetY < 0 && self.mainTableView.contentOffset.y == 0) {

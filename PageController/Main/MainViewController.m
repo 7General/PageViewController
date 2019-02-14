@@ -83,15 +83,15 @@ static CGFloat const kWMMenuViewHeight = 44.0;
 }
 
 - (void)mainTableViewDidScroll:(UIScrollView *)scrollView isMainCanScroll:(BOOL)isMainCanScroll {
-    CGFloat offsetY = scrollView.contentOffset.y;
     
+    CGFloat offsetY = scrollView.contentOffset.y;
     if (offsetY >= kWYHeaderHeight) {
         [self.headerBgImgView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.view);
             make.left.right.equalTo(self.view);
             make.height.mas_equalTo(GK_STATUSBAR_NAVBAR_HEIGHT);
         }];
-        
+
         [self.effectView mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(self.view);
             make.left.right.equalTo(self.view);
@@ -102,13 +102,13 @@ static CGFloat const kWMMenuViewHeight = 44.0;
         // 0到临界点 高度不变
         if (offsetY <= 0 && offsetY >= kCriticalPoint) {
             CGFloat criticalOffsetY = offsetY - kCriticalPoint;
-            
+
             [self.headerBgImgView mas_remakeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(self.view).offset(-criticalOffsetY);
                 make.left.right.equalTo(self.view);
                 make.bottom.equalTo(self.headerView.mas_top).offset(kWYHeaderHeight + criticalOffsetY);
             }];
-            
+
             [self.effectView mas_remakeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(self.view).offset(-criticalOffsetY);
                 make.left.right.equalTo(self.view);
@@ -120,14 +120,14 @@ static CGFloat const kWMMenuViewHeight = 44.0;
                 make.left.right.equalTo(self.view);
                 make.bottom.equalTo(self.headerView.mas_top).offset(kWYHeaderHeight);
             }];
-            
+
             [self.effectView mas_remakeConstraints:^(MASConstraintMaker *make) {
                 make.top.equalTo(self.view);
                 make.left.right.equalTo(self.view);
                 make.bottom.equalTo(self.headerView.mas_top).offset(kWYHeaderHeight);
             }];
         }
-        
+
         // 背景虚化
         // offsetY：0 - kWYHeaderHeight 透明度alpha：0-1
         CGFloat alpha = 0.0f;
@@ -140,7 +140,7 @@ static CGFloat const kWMMenuViewHeight = 44.0;
         }
         self.effectView.alpha = alpha;
     }
-    
+
     BOOL show = [self isAlbumNameLabelShowingOn];
     
 //    if (show) {
